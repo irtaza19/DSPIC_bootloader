@@ -1,0 +1,175 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BLE_STICK_CMD_NOT_RXED	blestick.py	/^BLE_STICK_CMD_NOT_RXED = 0x00;$/;"	v
+BLE_STICK_CMD_PKT_PREAMBULE	blestick.py	/^BLE_STICK_CMD_PKT_PREAMBULE = 0x5A;$/;"	v
+BLE_STICK_CMD_PKT_SIZE	blestick.py	/^BLE_STICK_CMD_PKT_SIZE = 50;$/;"	v
+BLE_STICK_CMD_RXED_CSUM_ERROR	blestick.py	/^BLE_STICK_CMD_RXED_CSUM_ERROR = 0x01;$/;"	v
+BLE_STICK_CMD_RXED_OK	blestick.py	/^BLE_STICK_CMD_RXED_OK =0x04;$/;"	v
+BLE_STICK_CMD_RXED_WRONG_CMD	blestick.py	/^BLE_STICK_CMD_RXED_WRONG_CMD = 0x03;$/;"	v
+BLE_STICK_CMD_RXED_WRONG_PREAMBULE	blestick.py	/^BLE_STICK_CMD_RXED_WRONG_PREAMBULE = 0x02;$/;"	v
+DEVICE_ADDRESS	bletestscript.py	/^DEVICE_ADDRESS = "F8:F0:05:D3:B3:5D"$/;"	v
+DEVICE_ADDRESS_TYPE	blef.py	/^DEVICE_ADDRESS_TYPE = pygatt.BLEAddressType.public$/;"	v
+DEVICE_ADDRESS_TYPE	bletestscript.py	/^DEVICE_ADDRESS_TYPE = pygatt.BLEAddressType.public$/;"	v
+DEVICE_BLE_NAME	bletestscript.py	/^DEVICE_BLE_NAME = 'tf370054001251373239333039'$/;"	v
+UART_CMD_ACK	blestick.py	/^UART_CMD_ACK                                    = 0x01$/;"	v
+UART_CMD_AUTHORIZE	blestick.py	/^UART_CMD_AUTHORIZE                              = 0x59$/;"	v
+UART_CMD_BLE_DATA	blestick.py	/^UART_CMD_BLE_DATA                               = 0x57$/;"	v
+UART_CMD_BLE_ENABLE_NOTIND	blestick.py	/^UART_CMD_BLE_ENABLE_NOTIND                      = 0x56$/;"	v
+UART_CMD_BLE_INIT	blestick.py	/^UART_CMD_BLE_INIT                               = 0x55$/;"	v
+UART_CMD_BLE_STATUS_CONNECTED	blestick.py	/^UART_CMD_BLE_STATUS_CONNECTED                   = 0x60$/;"	v
+UART_CMD_SET_BLE_NAME2SEARCH	blestick.py	/^UART_CMD_SET_BLE_NAME2SEARCH                    = 0x50$/;"	v
+UART_CMD_SET_BLE_SERVICE_AND_CHAR_UUID	blestick.py	/^UART_CMD_SET_BLE_SERVICE_AND_CHAR_UUID          = 0x51$/;"	v
+UART_CMD_SYSTEM_RESET	blestick.py	/^UART_CMD_SYSTEM_RESET                           = 0x10$/;"	v
+a	oldscript.py	/^            a = msg[0];$/;"	v
+a	oldscript.py	/^    a = 0;$/;"	v
+adapter	bletestscript.py	/^adapter = pygatt.GATTToolBackend()$/;"	v
+addVar2PKT	bletestscript.py	/^def addVar2PKT(pkt, value, idx):$/;"	f
+addVar2PKT	oldscript.py	/^def addVar2PKT(pkt, value, idx):$/;"	f
+addr	oldscript.py	/^            addr = pid * 31;$/;"	v
+addr	oldscript.py	/^    addr = 0x00000000$/;"	v
+addr	update-script.py	/^addr = 0;$/;"	v
+b	oldscript.py	/^            b = msg[1];$/;"	v
+b	oldscript.py	/^    b = 0;$/;"	v
+bid	oldscript.py	/^        bid = (g_ble_ack_pkt[3] << 8) | (g_ble_ack_pkt[4]);$/;"	v
+bleFWUPDATE	fwupdate.py	/^def bleFWUPDATE(fw_data,fw_size,fw_crc):$/;"	f
+ble_char_uuid	oldscript.py	/^ble_char_uuid = [0x00, 0x00];$/;"	v
+ble_name	oldscript.py	/^ble_name = "PNPC23F807A444F";$/;"	v
+ble_name	oldscript.py	/^ble_name = "PNPC3C7C6E87DCC"$/;"	v
+ble_name	oldscript.py	/^ble_name = "PNPFB08EC842871";$/;"	v
+ble_service_uuid	oldscript.py	/^ble_service_uuid = [0x00, 0x00];$/;"	v
+blestickFWUPDATE	fwupdate.py	/^def blestickFWUPDATE(fw_data,fw_size,fw_crc):$/;"	f
+c_filename	oldscript.py	/^c_filename = "main-v1.2.bin"$/;"	v
+chunk	oldscript.py	/^            chunk = (total_chunk & 0xf)  | (((k + 1) & 0x0f) << 4)$/;"	v
+cnt	oldscript.py	/^                    cnt = 0;$/;"	v
+cnt	oldscript.py	/^                    cnt = cnt + 1;$/;"	v
+cnt	oldscript.py	/^                cnt = cnt + 1;$/;"	v
+cnt	oldscript.py	/^        cnt = 0;$/;"	v
+color	oldscript.py	/^color = [0xc0,0x38,0x07]$/;"	v
+color	oldscript.py	/^color = bytearray(3);$/;"	v
+crc	oldscript.py	/^    crc = bytearray(4);$/;"	v
+data	bletestscript.py	/^	data = device.char_read('8ba16c63-1810-c6d2-1a3d-09eb265d0001');$/;"	v
+dataAvaialbe	uart.py	/^def dataAvaialbe():$/;"	f
+deinit	uart.py	/^def deinit():$/;"	f
+delay_ms	delay.py	/^def delay_ms(n):$/;"	f
+delay_ms	oldscript.py	/^def delay_ms(n):$/;"	f
+delay_us	delay.py	/^def delay_us(n):$/;"	f
+delay_us	oldscript.py	/^def delay_us(n):$/;"	f
+device	bletestscript.py	/^device = adapter.connect(DEVICE_ADDRESS, address_type=DEVICE_ADDRESS_TYPE)$/;"	v
+enable	blestick.py	/^def enable():$/;"	f
+enableNotif	blestick.py	/^def enableNotif(data):$/;"	f
+exit_flag	oldscript.py	/^                    exit_flag = 1;$/;"	v
+exit_flag	oldscript.py	/^        exit_flag = 0;$/;"	v
+file	oldscript.py	/^    file = open(c_filename, "rb");  # b is important -> binary$/;"	v
+fileContent	oldscript.py	/^    fileContent = file.read()$/;"	v
+flag	oldscript.py	/^                    flag = 1$/;"	v
+flag	oldscript.py	/^        flag = 0;$/;"	v
+flag	oldscript.py	/^    flag = 0;$/;"	v
+fw_crc	update-script.py	/^fw_crc = fwinfo.getcsum(fw_data,fw_size,0);$/;"	v
+fw_data	update-script.py	/^fw_data = bytearray(fw_fid.read());$/;"	v
+fw_fid	update-script.py	/^fw_fid = open("..\/main-firmware\/main.bin", 'rb');$/;"	v
+fw_size	update-script.py	/^fw_size = int(len(fw_data));$/;"	v
+g_ack_data	oldscript.py	/^g_ack_data = bytearray([0, 0, 0, 0, 0, 0, 0])$/;"	v
+g_ble_ack_pkt	blef.py	/^g_ble_ack_pkt = bytearray([0, 0x75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])$/;"	v
+g_ble_ack_pkt	bletestscript.py	/^g_ble_ack_pkt = bytearray([0, 0x75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])$/;"	v
+g_ble_ack_pkt	oldscript.py	/^g_ble_ack_pkt = bytearray([0, 0x75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])$/;"	v
+g_ble_aflag	blef.py	/^g_ble_aflag = 1$/;"	v
+g_ble_aflag	bletestscript.py	/^g_ble_aflag = 1$/;"	v
+g_ble_aflag	oldscript.py	/^g_ble_aflag = 1$/;"	v
+g_ble_pkt	blef.py	/^g_ble_pkt = bytearray([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])$/;"	v
+g_ble_pkt	bletestscript.py	/^g_ble_pkt = bytearray([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])$/;"	v
+g_ble_pkt	oldscript.py	/^g_ble_pkt = bytearray(g_ble_pkt_size)$/;"	v
+g_ble_pkt_size	oldscript.py	/^g_ble_pkt_size =36$/;"	v
+g_cmd_pkt	blestick.py	/^g_cmd_pkt = bytearray(BLE_STICK_CMD_PKT_SIZE);$/;"	v
+g_ser_wait_period	oldscript.py	/^g_ser_wait_period = 1;$/;"	v
+g_strip	oldscript.py	/^g_strip = bytearray(g_strip_led_cnt);$/;"	v
+g_strip_led_cnt	oldscript.py	/^g_strip_led_cnt = 100 * 30;$/;"	v
+g_tx_pkt	blef.py	/^g_tx_pkt = bytearray([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])$/;"	v
+g_tx_pkt	bletestscript.py	/^g_tx_pkt = bytearray([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])$/;"	v
+g_tx_pkt	oldscript.py	/^g_tx_pkt = bytearray(pkt_size)$/;"	v
+genPktBLE	oldscript.py	/^def genPktBLE(pktcmd,pktdata):$/;"	f
+getBytesFromInt	misc.py	/^def getBytesFromInt(data):$/;"	f
+getBytesFromInt	oldscript.py	/^def getBytesFromInt(data):$/;"	f
+getIntFromBytes	misc.py	/^def getIntFromBytes(data_byte):$/;"	f
+getIntFromBytes	oldscript.py	/^def getIntFromBytes(data_byte):$/;"	f
+getPktBLE	bletestscript.py	/^def getPktBLE(pktid, pktchunk, pktlen, pktdata):$/;"	f
+getPktUART	oldscript.py	/^def getPktUART(pktid, pktchunk,pktdata):$/;"	f
+getcsum	fwinfo.py	/^def getcsum(fdata, fsize, offset):$/;"	f
+id1	bletestscript.py	/^	id1 = device.char_read('8ba16c63-1810-c6d2-1a3d-09eb265d0001');$/;"	v
+id2	bletestscript.py	/^	id2 = device.char_read('8ba16c63-1810-c6d2-1a3d-09eb265d0001');$/;"	v
+init	blef.py	/^def init(mac):$/;"	f
+init	blestick.py	/^def init():$/;"	f
+init	uart.py	/^def init(port,baudrate):$/;"	f
+k	oldscript.py	/^                    k = k - 1;$/;"	v
+k	oldscript.py	/^                k = k - 1;$/;"	v
+k	oldscript.py	/^            k = k + 1;$/;"	v
+k	oldscript.py	/^        k = 0;$/;"	v
+msg	oldscript.py	/^                    msg = firmware[(rcnt):(rcnt_end)]$/;"	v
+msg	oldscript.py	/^        msg = bytearray(32)$/;"	v
+msg	oldscript.py	/^        msg = bytearray(33)$/;"	v
+msg	oldscript.py	/^    msg = getBytesFromInt(size)  + crc;$/;"	v
+notificationBLE	bletestscript.py	/^def notificationBLE(handle, data):$/;"	f
+pid	oldscript.py	/^            pid = a * 256 + b;$/;"	v
+pid	oldscript.py	/^            pid = g_ble_ack_pkt[2] * 256  + g_ble_ack_pkt[3];$/;"	v
+pid	oldscript.py	/^    pid = 0;$/;"	v
+pkt_size	oldscript.py	/^pkt_size =50$/;"	v
+pkt_size	uart.py	/^pkt_size = 38$/;"	v
+printBLEPKT	blef.py	/^def printBLEPKT(pkt):$/;"	f
+printBLEPKT	bletestscript.py	/^def printBLEPKT(pkt):$/;"	f
+printBLEPKT	oldscript.py	/^def printBLEPKT(pkt):$/;"	f
+rcnt	oldscript.py	/^                    rcnt = rcnt_end;$/;"	v
+rcnt	oldscript.py	/^        rcnt = bid *476;$/;"	v
+rcnt_end	oldscript.py	/^                    rcnt_end = size$/;"	v
+rcnt_end	oldscript.py	/^                rcnt_end = rcnt + 28;$/;"	v
+rcnt_end	oldscript.py	/^                rcnt_end = rcnt + 32;$/;"	v
+read	uart.py	/^def read(size):$/;"	f
+res	bletestscript.py	/^	res = device.char_read('8ba16c63-1810-c6d2-1a3d-09eb265d0001');$/;"	v
+resetAllLED	oldscript.py	/^def resetAllLED():$/;"	f
+result	bletestscript.py	/^	result = device.char_read('8ba16c63-1810-c6d2-1a3d-09eb265d0001');$/;"	v
+sendCmd	blestick.py	/^def sendCmd(cmd,chunk,chunk_cnt,data,size):$/;"	f
+sendPCK	blestick.py	/^def sendPCK(cmd,chunk,chunk_cnt,data):$/;"	f
+sendPktFWUPDATE	fwupdate.py	/^def sendPktFWUPDATE(cmd,chunk,chunk_cnt,data):$/;"	f
+ser	oldscript.py	/^ser = serial.Serial("\/dev\/ttyUSB1", 921600)$/;"	v
+setAllLED	oldscript.py	/^def setAllLED(color):$/;"	f
+setDTRHigh	uart.py	/^def setDTRHigh():$/;"	f
+setDTRLow	uart.py	/^def setDTRLow():$/;"	f
+setGlobalIntensityLED	oldscript.py	/^def setGlobalIntensityLED(intensity):$/;"	f
+setLED	oldscript.py	/^def setLED(ledoff,ledon,color):$/;"	f
+setName	blestick.py	/^def setName(name):$/;"	f
+setUUID	blestick.py	/^def setUUID(uuid):$/;"	f
+size	oldscript.py	/^    size = len(fileContent);$/;"	v
+ssid	bletestscript.py	/^    ssid = device.char_read('8ba16c63-1810-c6d2-1a3d-09eb265d0001')$/;"	v
+test	uart.py	/^def test():$/;"	f
+tmp	oldscript.py	/^        tmp = wait4Resp(10000);$/;"	v
+total_chunk	oldscript.py	/^            total_chunk = 15;$/;"	v
+total_chunk	oldscript.py	/^            total_chunk = int(np.ceil(((size - rcnt + 2) \/ 32.00)));$/;"	v
+total_chunk	oldscript.py	/^        total_chunk = 0;$/;"	v
+txData	blef.py	/^def txData(pkt):$/;"	f
+txData	uart.py	/^def txData(data):$/;"	f
+txDataBLE	bletestscript.py	/^def txDataBLE(pkt):$/;"	f
+txDataBLE	oldscript.py	/^def txDataBLE(pkt):$/;"	f
+txPkt	uart.py	/^def txPkt(cmd,data):$/;"	f
+txPktUART	oldscript.py	/^def txPktUART(data):$/;"	f
+tx_size	oldscript.py	/^            tx_size = 476;$/;"	v
+tx_size	oldscript.py	/^            tx_size = size - rcnt;$/;"	v
+uartFWUPDATE	fwupdate.py	/^def uartFWUPDATE(fw_data,fw_size):$/;"	f
+val	bletestscript.py	/^	val = device.char_write_handle(0x0012, g_tx_pkt);$/;"	v
+val	bletestscript.py	/^	val = device.char_write_handle(0x0012,g_tx_pkt);$/;"	v
+val	bletestscript.py	/^    val = device.char_write_handle(0x0012, [0x23,0x11,0x01,0x01,0xCA, 0x00,0x00,0x00,0x00,0x00, 0x00,0x00,0x00,0x00,0x00, 0x00,0x00,0x00,0x00,0x00]);$/;"	v
+val	bletestscript.py	/^    val = device.char_write_handle(0x0012, [0x28,0x11,0x00,0xC7,0x00, 0xC9,0x00,0x00,0x00,0x00, 0x00,0x00,0x00,0x00,0x00, 0x00,0x00,0x00,0x00,0x00]);$/;"	v
+val	bletestscript.py	/^    val = device.char_write_handle(0x0012, [0x30,0x11,0x01,0x04,0xBA, 0x00,0x00,0x00,0x00,0x00, 0x00,0x00,0x00,0x00,0x00, 0x00,0x00,0x00,0x00,0x00]);$/;"	v
+val	bletestscript.py	/^    val = device.char_write_handle(0x0012, g_tx_pkt);$/;"	v
+val1	bletestscript.py	/^	val1 = device.char_read('8ba16c63-1810-c6d2-1a3d-09eb265d0001');$/;"	v
+val2	bletestscript.py	/^	val2 = device.char_read('8ba16c63-1810-c6d2-1a3d-09eb265d0001');$/;"	v
+wait4Cmd	blestick.py	/^def wait4Cmd(cmd,wait_period):$/;"	f
+wait4Pkt	uart.py	/^def wait4Pkt(wait_period,cmd):$/;"	f
+wait4Resp	oldscript.py	/^def wait4Resp(wait_period):$/;"	f
+wait4Resp	uart.py	/^def wait4Resp(wait_period,cmd):$/;"	f
+wait4RespPKT	oldscript.py	/^def wait4RespPKT(cmd, wait_period):$/;"	f
+wait4RespPKTBLE	oldscript.py	/^def wait4RespPKTBLE(cmd, wait_period):$/;"	f
+waitRespBLE	blef.py	/^def waitRespBLE():$/;"	f
+waitRespBLE	bletestscript.py	/^def waitRespBLE():$/;"	f
+waitRespUART	oldscript.py	/^def waitRespUART(wait_period):$/;"	f
